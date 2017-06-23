@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-api-aws",
+  "version": "1.0.0",
+  "description": "This is a nodeJs api exposing apis to give info about aws components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sarojkmb",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.77.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.8",
+    "node-uuid": "^1.4.8"
+  }
+}

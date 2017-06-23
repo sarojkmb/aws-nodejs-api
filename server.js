@@ -20,7 +20,7 @@ app.use(function(req, res) {
 
 
 
-var routes = require('./api/routes/todoListRoutes');
+var routes = require('./api/routes/awsRoutes');
 
 routes(app);
 
